@@ -3,7 +3,7 @@ Prerequirement
 Download jdk-8u181-linux-x64.tar.gz into this repo
 
 Build docker image from docker file
-1. `cd docker-repo`
+1. `cd dubbo-admin-docker-repo`
 2. `docker build -t my-dubbo-admin ./`
 3. `docker run -p 8082:8080 -p 2181:2181 my-dubbo-admin`
 
